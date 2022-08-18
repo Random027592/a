@@ -1,9 +1,5 @@
 name: TestCatalina
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+on: [push, pull_request]
 jobs:
   build:
     runs-on: macos-catalina
